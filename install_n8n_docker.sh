@@ -19,7 +19,6 @@ EOF
 
 echo "🧱 إنشاء ملف docker-compose.yml..."
 cat <<EOF > docker-compose.yml
-version: '3.7'
 
 services:
   postgres:
